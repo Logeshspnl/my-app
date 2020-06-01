@@ -1,0 +1,27 @@
+def workspace;
+node
+{
+    stage('Checkout')
+    {
+       
+      echo "workspace"  
+        
+    }
+    stage('Static Code Analysis')
+    {
+        echo "Static Code Analysis"
+    }
+    stage('Build')
+    {
+        echo "Build deployment"
+    }
+    stage('Unit Testing')
+    {
+        echo "Unit Testing integration"
+    }
+    stage('Delivery')
+    {
+        echo "Continuous Delivery"
+    }
+
+}
